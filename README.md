@@ -10,9 +10,7 @@
 
 _Krátce popište svůj projekt – čemu se věnuje, co nabízí a jaký problém řeší?_
 
-`UrbanGarden Studio je designové studio zaměřené na návrh a realizaci moderních zahrad pro současné bydlení. Projekt se specializuje na minimalistické a funkční zahradní řešení, která kombinují přírodní prvky s moderní architekturou.
-
-Cílem projektu je nabídnout klientům návrh zahrady, která není jen estetická, ale také praktická a snadno udržovatelná. Web prezentuje služby studia, ukázky realizací a umožňuje kontakt pro nezávaznou poptávku.`
+`UrbanGarden Studio je designové studio zaměřené na návrh a realizaci moderních zahrad pro současné bydlení. Projekt se specializuje na minimalistické a funkční zahradní řešení, která kombinují přírodní prvky s moderní architekturou. Cílem projektu je nabídnout klientům návrh zahrady, která není jen estetická, ale také praktická a snadno udržovatelná. Web prezentuje služby studia, ukázky realizací a umožňuje kontakt pro nezávaznou poptávku.`
 
 ---
 
