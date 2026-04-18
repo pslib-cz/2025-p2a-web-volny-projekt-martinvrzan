@@ -2,7 +2,7 @@
 
 > **Jméno a příjmení:** `Martin Vrzáň`
 
-> **Název projektu:** `Doplňte`
+> **Název projektu:** `UrbanGarden Studio`
 
 ---
 
@@ -10,7 +10,9 @@
 
 _Krátce popište svůj projekt – čemu se věnuje, co nabízí a jaký problém řeší?_
 
-`Doplňte popis projektu.`
+`UrbanGarden Studio je designové studio zaměřené na návrh a realizaci moderních zahrad pro současné bydlení. Projekt se specializuje na minimalistické a funkční zahradní řešení, která kombinují přírodní prvky s moderní architekturou.
+
+Cílem projektu je nabídnout klientům návrh zahrady, která není jen estetická, ale také praktická a snadno udržovatelná. Web prezentuje služby studia, ukázky realizací a umožňuje kontakt pro nezávaznou poptávku.`
 
 ---
 
@@ -26,7 +28,7 @@ _Uveďte konkurenční projekty. Co se vám na nich líbí, co ne? V čem se mů
 
 _Kdo je váš cílový uživatel / zákazník? Popište typického zástupce cílové skupiny._
 
-`Doplňte cílovou skupinu.`
+`Cílovou skupinou jsou majitelé rodinných domů a moderních bytů se zahradou, kteří mají zájem o úpravu nebo kompletní návrh exteriéru.`
 
 
 ## Odkazy a výstupy
