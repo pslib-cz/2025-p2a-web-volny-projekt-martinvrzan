@@ -28,7 +28,7 @@ _Uveďte konkurenční projekty. Co se vám na nich líbí, co ne? V čem se mů
 
 _Kdo je váš cílový uživatel / zákazník? Popište typického zástupce cílové skupiny._
 
-`Cílovou skupinou jsou majitelé rodinných domů a moderních bytů se zahradou, kteří mají zájem o úpravu nebo kompletní návrh exteriéru.`
+`Cílovou skupinou jsou majitelé rodinných domů a moderních bytů se zahradou, kteří mají zájem o úpravu nebo kompletní návrh exteriéru své zahrady.`
 
 
 ## Odkazy a výstupy
