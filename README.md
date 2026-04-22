@@ -37,7 +37,7 @@ _Shrnutí všech odkazů na jednom místě. Průběžně aktualizujte._
 |---|---|
 | GitHub Pages (live) | [`UrbanGarden Studio`]( https://pslib-cz.github.io/2025-p2a-web-volny-projekt-martinvrzan/) |
 | Grafický manuál (Figma / Canva) | [`Grafický Manuál`](https://www.figma.com/design/BE0wFovxVuDtYR8NNeVS5Q/Grafick%C3%BD-manu%C3%A1l?node-id=0-1&t=vaeNXWIcBNbJlbJr-1) |
-| Grafický návrh webu (Figma) | [`Doplň odkaz`](#) |
+| Grafický návrh webu (Figma) | [`mobile`](https://www.figma.com/design/BE0wFovxVuDtYR8NNeVS5Q/Grafick%C3%BD-manu%C3%A1l?node-id=1-2&t=0UJVDq3OrZ7usecG-1) , [`desktop`](https://www.figma.com/design/BE0wFovxVuDtYR8NNeVS5Q/Grafick%C3%BD-manu%C3%A1l?node-id=1-3&t=0UJVDq3OrZ7usecG-1)|
 | Fotografie / média | [`Doplň odkaz`](#) |
 
 ---
