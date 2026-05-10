@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap');
+
+:root {
+
+    /*barvy*/
+
+    --deep-forest-green: #1F3A2E;
+    --graphite-black: #1C1C1C;
+    --off-white: #F5F3EE;
+    --warm-sand-beige: #D8CFC4;
+    --grey-green: #528F70;
+
+    /*fonty*/
+
+    --font-heading: "Playfair Display", serif;
+    --font-body: "Inter", sans-serif;
+
+}
+
+body {
+    font-family: var(--font-body);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-heading);
+}
