@@ -1,0 +1,11 @@
+@layer reset, typography, layout, components;
+
+@layer components {
+    header{
+        background-color: var(--grey-green);
+        color: white;
+        position: sticky;
+        z-index: 100;
+        top: 0;
+    }
+}
