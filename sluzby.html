@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | UrbanGarden Studio</title>
-    <link rel="stylesheet" href="CSS/reset.css">
-    <link rel="stylesheet" href="CSS/styles.css">
-    <link rel="stylesheet" href="CSS/componets.css">
-    <link rel="stylesheet" href="CSS/layout.css">
+    <title>Služby | UrbanGarden Studio</title>
+    <link class="link-reset" rel="stylesheet" href="CSS/reset.css">
+    <link class="link-styles" rel="stylesheet" href="CSS/styles.css">
+    <link class="link-componets" rel="stylesheet" href="CSS/componets.css">
+    <link class="link-layout" rel="stylesheet" href="CSS/layout.css">
 </head>
 
 <body>
@@ -50,61 +50,63 @@
         </div>
     </div>
 
-    <main>
-        <section class="hero hero--home" style="background-image: url('imgs/hero_home.png');">
+    <main class="sluzby-page">
+        <section class="hero hero--sluzby" style="background-image: url('imgs/leaves_banner.png');">
             <div class="hero__overlay"></div>
             <div class="hero__content">
-                <h1 class="hero__title">Navrhujeme zahrady<br>jako architekturu</h1>
-                <p class="hero__intro text-body-large">Tvoříme zahrady, kde se příroda potkává s architekturou a vzniká prostor s charakterem.</p>
-                <div class="hero__meta">MODERNÍ PROSTOR | KLID | STRUKTURA</div>
-                <a href="projekty.html" class="btn btn--primary">Naše projekty</a>
+                <h1 class="hero__title">Hýčkáme vás i zeleň.</h1>
+                <p class="hero__desc text-body-large">Vytváříme moderní zahrady, kde se příroda setkává s architekturou. Každý projekt je kompozicí prostoru, světla a materiálů, navrženou pro klidné a nadčasové bydlení.</p>
             </div>
         </section>
 
-        <div class="home-intro-mobile">
-            <p class="text-body-large">Tvoříme zahrady, kde se příroda potkává s architekturou a vzniká prostor s charakterem.</p>
-        </div>
-
-        <section class="services-teaser">
-            <div class="services-teaser__container">
-                <div class="services-teaser__item services-teaser__item--navrh">
-                    <h2 class="services-teaser__title">Návrh zahrady</h2>
-                    <p class="services-teaser__desc text-body-regular">Individuální koncepty navržené pro konkrétní prostor.</p>
+        <section class="services-list">
+            <div class="services-list__container">
+                <div class="services-list__item">
+                    <h2 class="services-list__title">Návrh zahrady</h2>
+                    <p class="services-list__desc text-body-regular">Individuální návrh zahrady, který respektuje architekturu domu i okolní krajinu.</p>
                 </div>
-                <div class="services-teaser__divider"></div>
-                <div class="services-teaser__item services-teaser__item--krajina">
-                    <h2 class="services-teaser__title">Krajinářská architektura</h2>
-                    <p class="services-teaser__desc text-body-regular">Komplexní návrh venkovních ploch.</p>
+                <div class="services-list__divider"></div>
+                <div class="services-list__item">
+                    <h2 class="services-list__title">Krajinářská architektura</h2>
+                    <p class="services-list__desc text-body-regular">Komplexní řešení venkovních prostor - od konceptu po realizaci.</p>
                 </div>
-                <div class="services-teaser__divider"></div>
-                <div class="services-teaser__item services-teaser__item--realizace">
-                    <h2 class="services-teaser__title">Realizace</h2>
-                    <p class="services-teaser__desc text-body-regular">Dlouhodobá péče a realizace projektů.</p>
+                <div class="services-list__divider"></div>
+                <div class="services-list__item">
+                    <h2 class="services-list__title">Realizace a údržba</h2>
+                    <p class="services-list__desc text-body-regular">Dlouhodobá péče o zahradu, aby si zachovala svou kvalitu a charakter.</p>
                 </div>
             </div>
         </section>
 
-        <section class="gallery-home">
-            <div class="gallery-home__container">
-                <div class="gallery-home__image-wrapper">
-                    <img src="imgs/garden_hedges.png" alt="Precizně zastřižené keře a chodník" class="gallery-home__img">
+        <section class="sluzby-form-section">
+            <div class="sluzby-form-section__container">
+                <div class="contact-form">
+                    <h2 class="contact-form__title">Kontaktujte nás</h2>
+                    <p class="contact-form__subtitle">Máte nápad? Napište nám.</p>
+                    <form class="contact-form__fields" action="#" method="POST">
+                        <div class="contact-form__group">
+                            <label class="contact-form__label" for="fname">Jméno</label>
+                            <input class="contact-form__input" type="text" id="fname" name="firstname" value="Martin">
+                        </div>
+                        <div class="contact-form__group">
+                            <label class="contact-form__label" for="lname">Příjmení</label>
+                            <input class="contact-form__input" type="text" id="lname" name="lastname" value="Vrzáň">
+                        </div>
+                        <div class="contact-form__group">
+                            <label class="contact-form__label" for="email">Email</label>
+                            <input class="contact-form__input" type="email" id="email" name="email" value="ahoj@ahoj.cz">
+                        </div>
+                        <div class="contact-form__group">
+                            <label class="contact-form__label" for="phone">Telefon</label>
+                            <input class="contact-form__input" type="tel" id="phone" name="phone" value="+420 000 000 000">
+                        </div>
+                        <div class="contact-form__group">
+                            <label class="contact-form__label" for="message">Vaše zpráva</label>
+                            <textarea class="contact-form__textarea" id="message" name="message">Dobrý den, ....</textarea>
+                        </div>
+                        <button class="contact-form__submit btn" type="submit">Odeslat</button>
+                    </form>
                 </div>
-                <div class="gallery-home__image-wrapper">
-                    <img src="imgs/garden_patio.png" alt="Venkovní posezení s rostlinami" class="gallery-home__img">
-                </div>
-            </div>
-        </section>
-
-        <section class="quote-section">
-            <div class="quote-section__container">
-                <h2 class="quote-section__text">Vytváříme prostor, který má klid.</h2>
-            </div>
-        </section>
-
-        <section class="cta-section">
-            <div class="cta-section__container">
-                <h2 class="cta-section__title">Vytvořme něco společně</h2>
-                <a href="kontakty.html" class="btn btn--primary">Kontaktujte nás</a>
             </div>
         </section>
     </main>
