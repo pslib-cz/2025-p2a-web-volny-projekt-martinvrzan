@@ -53,8 +53,8 @@ _Shrnutí všech odkazů na jednom místě. Průběžně aktualizujte._
 | Výstup | Odkaz |
 |---|---|
 | GitHub Pages (live) | [`UrbanGarden Studio`]( https://pslib-cz.github.io/2025-p2a-web-volny-projekt-martinvrzan/) |
-| Grafický manuál (Figma / Canva) | [`Grafický Manuál`](https://www.figma.com/design/BE0wFovxVuDtYR8NNeVS5Q/Grafick%C3%BD-manu%C3%A1l?node-id=0-1&t=vaeNXWIcBNbJlbJr-1) |
-| Grafický návrh webu (Figma) | [`mobile`](https://www.figma.com/design/BE0wFovxVuDtYR8NNeVS5Q/Grafick%C3%BD-manu%C3%A1l?node-id=1-2&t=0UJVDq3OrZ7usecG-1) , [`desktop`](https://www.figma.com/design/BE0wFovxVuDtYR8NNeVS5Q/Grafick%C3%BD-manu%C3%A1l?node-id=1-3&t=0UJVDq3OrZ7usecG-1)|
+| Grafický manuál (Figma / Canva) | [`Grafický Manuál`](https://www.figma.com/design/wKgUbjVKxJKHjLrqsSZZAN/Vrz%C3%A1%C5%88Martin?node-id=0-1&t=fc5t4dTHebDF8xRQ-1) |
+| Grafický návrh webu (Figma) | [`mobile`](https://www.figma.com/design/wKgUbjVKxJKHjLrqsSZZAN/Vrz%C3%A1%C5%88Martin?node-id=7-150&t=fc5t4dTHebDF8xRQ-1) , [`desktop`](https://www.figma.com/design/wKgUbjVKxJKHjLrqsSZZAN/Vrz%C3%A1%C5%88Martin?node-id=16-479&t=fc5t4dTHebDF8xRQ-1)|
 | Fotografie / média | [`Doplň odkaz`](#) |
 
 ---
