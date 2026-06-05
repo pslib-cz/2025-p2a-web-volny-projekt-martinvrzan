@@ -8,7 +8,7 @@
         z-index: 1000;
         top: 0;
         width: 100%;
-        box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
     }
 
     .header__container {
@@ -37,25 +37,25 @@
         .navigation {
             display: block;
         }
-        
+
         .navigation__menu {
             display: flex;
             gap: var(--spacing-xl);
         }
-        
+
         .navigation__link {
             color: var(--white);
             font-size: 0.95rem;
             font-weight: 500;
             opacity: 0.9;
             padding: var(--spacing-xs) 0;
-            border-bottom: 2px solid transparent;
+            text-decoration: none;
             transition: var(--transition-smooth);
         }
-        
+
         .navigation__link:hover {
             opacity: 1;
-            border-bottom-color: var(--white);
+            text-decoration: underline;
         }
     }
 
@@ -99,12 +99,20 @@
     }
 
     .mobile-nav__header {
-        background-color: var(--grey-green);
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
         padding: var(--spacing-md) var(--container-padding);
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: flex-end;
         color: var(--white);
+        z-index: 10;
+    }
+
+    .mobile-nav__logo {
+        display: none;
     }
 
     .mobile-nav__close {
@@ -159,6 +167,8 @@
     .btn--primary {
         background-color: var(--grey-green);
         color: var(--white);
+        border: 3px solid var(--deep-forest-green);
+        border-radius: var(--radius-sm);
     }
 
     .btn--primary:hover {
@@ -211,7 +221,8 @@
         }
     }
 
-    .hero__desc {
+    .hero__desc,
+    .hero__intro {
         font-size: 1rem;
         font-weight: 300;
         opacity: 0.9;
@@ -219,6 +230,11 @@
         max-width: 600px;
         margin-left: auto;
         margin-right: auto;
+        color: var(--white);
+    }
+
+    .hero--home .hero__intro {
+        font-size: 1.125rem;
     }
 
     .hero__meta {
@@ -278,12 +294,11 @@
         font-size: 0.95rem;
         opacity: 0.7;
         line-height: 1.6;
-        white-space: pre-line;
     }
 
     .footer__divider {
         border: none;
-        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        border-top: 1px solid rgba(255, 255, 255, 0.35);
         margin: var(--spacing-xl) 0 var(--spacing-md) 0;
     }
 
@@ -358,22 +373,11 @@
     .contact-form__submit {
         margin-top: var(--spacing-md);
         align-self: flex-start;
-        background-color: var(--grey-green);
-        color: var(--white);
-        border-radius: 4px;
-        padding: 8px 20px;
-        font-size: 0.875rem;
-        font-weight: 500;
-        transition: var(--transition-smooth);
-    }
-
-    .contact-form__submit:hover {
-        background-color: var(--grey-green-hover);
     }
 
     .card-vize {
-        border: 1px solid var(--grey-green);
-        background-color: var(--white);
+        border: 3px solid var(--grey-green);
+        background-color: var(--off-white);
         padding: var(--spacing-xl);
         text-align: center;
         border-radius: var(--radius-sm);
@@ -382,7 +386,7 @@
     .card-vize__title {
         font-family: var(--font-heading);
         font-size: 1.35rem;
-        color: var(--deep-forest-green);
+        color: var(--graphite-black);
         margin-bottom: var(--spacing-md);
         font-weight: 600;
     }

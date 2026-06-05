@@ -114,8 +114,11 @@
     }
 
     .services-teaser__divider {
-        border-top: 1px solid var(--border-color);
-        margin: var(--spacing-sm) 0;
+        border-top: 1px solid var(--deep-forest-green);
+        margin-top: var(--spacing-sm);
+        margin-bottom: var(--spacing-sm);
+        margin-left: calc(-50vw + 50%);
+        margin-right: calc(-50vw + 50%);
     }
 
     @media (min-width: 768px) {
@@ -151,18 +154,18 @@
     .gallery-home {
         background-color: var(--white);
         padding-top: 0;
+        padding-bottom: 0;
     }
 
     .gallery-home__container {
         display: flex;
         flex-direction: column;
-        gap: var(--spacing-lg);
+        gap: var(--spacing-xs);
     }
 
     .gallery-home__image-wrapper {
         width: 100%;
         overflow: hidden;
-        border-radius: var(--radius-sm);
     }
 
     .gallery-home__img {
@@ -180,13 +183,14 @@
         .gallery-home__container {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: var(--spacing-xl);
+            gap: var(--spacing-sm);
         }
         
         .gallery-home__image-wrapper {
             height: 380px;
+            border-radius: var(--radius-sm);
         }
-        
+
         .gallery-home__img {
             height: 100%;
         }
@@ -216,7 +220,7 @@
     }
 
     .cta-section {
-        background-color: var(--off-white);
+        background-color: var(--white);
         text-align: center;
         border-top: 1px solid var(--border-color);
     }
@@ -269,7 +273,6 @@
         width: 100%;
         max-width: 600px;
         border-radius: var(--radius-sm);
-        box-shadow: var(--shadow-soft);
     }
 
     @media (min-width: 768px) {
@@ -280,6 +283,9 @@
 
     .onas-content {
         background-color: var(--white);
+    }
+
+    .onas-content .onas-page__container {
         display: flex;
         flex-direction: column;
         gap: var(--spacing-xl);
@@ -297,13 +303,13 @@
     }
 
     @media (min-width: 768px) {
-        .onas-content {
+        .onas-content .onas-page__container {
             display: grid;
             grid-template-columns: 1.1fr 0.9fr;
             gap: var(--spacing-xxl);
             align-items: start;
         }
-        
+
         .onas-content__kdo-jsme {
             padding-right: var(--spacing-md);
         }
@@ -321,6 +327,7 @@
 
     .services-list {
         background-color: var(--white);
+        padding-bottom: 0;
     }
 
     .services-list__container {
@@ -346,8 +353,11 @@
     }
 
     .services-list__divider {
-        border-top: 1px solid var(--border-color);
-        margin: var(--spacing-sm) 0;
+        border-top: 1px solid var(--deep-forest-green);
+        margin-top: var(--spacing-sm);
+        margin-bottom: var(--spacing-sm);
+        margin-left: calc(-50vw + 50%);
+        margin-right: calc(-50vw + 50%);
     }
 
     @media (min-width: 768px) {
@@ -370,6 +380,7 @@
     .sluzby-form-section {
         background-color: var(--white);
         border-top: 1px solid var(--border-color);
+        padding-top: 0;
     }
 
     .sluzby-form-section .contact-form {
@@ -400,13 +411,12 @@
     .gallery-grid {
         display: flex;
         flex-direction: column;
-        gap: var(--spacing-md);
+        gap: var(--spacing-xs);
     }
 
     .gallery-grid__item {
         width: 100%;
         overflow: hidden;
-        border-radius: var(--radius-sm);
     }
 
     .gallery-grid__img {
@@ -428,11 +438,12 @@
         .gallery-grid {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            gap: var(--spacing-lg);
+            gap: var(--spacing-xs);
         }
 
         .gallery-grid__item {
             display: block !important;
+            border-radius: var(--radius-sm);
         }
 
         .gallery-grid__img {
@@ -477,6 +488,8 @@
         color: var(--text-muted);
         font-weight: 600;
         font-size: 0.75rem;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
     }
 
     .kontakty-info__value {
@@ -582,14 +595,17 @@
 
     @media (min-width: 768px) {
         .footer__content {
-            align-items: start;
+            flex-direction: row;
+            align-items: flex-start;
             justify-content: space-between;
+            gap: var(--spacing-xl);
             text-align: center;
         }
 
         .footer__section {
-            width: 100%;
-            text-align: center;
+            flex: 1;
+            margin-bottom: 0;
+            text-align: start;
         }
 
         .footer__list {
