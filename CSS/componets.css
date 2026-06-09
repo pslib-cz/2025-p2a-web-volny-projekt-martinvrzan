@@ -12,7 +12,6 @@
     }
 
     .header__container {
-        max-width: var(--container-max-width);
         margin: 0 auto;
         padding: var(--spacing-md) var(--container-padding);
         display: flex;
