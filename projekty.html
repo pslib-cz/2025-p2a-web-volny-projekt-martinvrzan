@@ -10,16 +10,23 @@
     <link rel="shortcut icon" href="./favicon/favicon.ico" />
     <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png" />
     <link rel="manifest" href="./favicon/web-app-manifest-192x192.png" />
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="CSS/componets.css">
+    <link rel="stylesheet" href="CSS/layout.css">
 </head>
 
 <body>
     <header>
-        <nav>
-            <menu>
-                <li><a href="onas.html">O násS</a></li>
-                <li><a href="sluzby.html">Služby</a></li>
-                <li><a href="projekty.html">Projekty</a></li>
-                <li><a href="kontakty.html">Kontakty</a></li>
+        <div class="ikona__obal">
+            <a href="index.html"><img class="header__ikona" src="favicon/favicon-96x96.png" alt="ikona domů"></a>
+        </div>
+        <nav class="navigace">
+            <menu class="menu">
+                <li class="item"><a href="onas.html">O Nás</a></li>
+                <li class="item"><a href="sluzby.html">Služby</a></li>
+                <li class="item"><a href="projekty.html">Projekty</a></li>
+                <li class="item"><a href="kontakty.html">Kontakty</a></li>
             </menu>
         </nav>
     </header>
@@ -27,7 +34,24 @@
 
     </main>
     <footer>
-
+        <div>
+            <div>
+                <h3>Mohlo by vás zajímat:</h3>
+                <ul>
+                    <li><a href="onas.html">O nás</a></li>
+                    <li><a href="sluzby.html">Služby</a></li>
+                    <li><a href="projekty.html">Projekty</a></li>
+                    <li><a href="kontakty.html">Kontakty</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Kde nás najdete:</h3>
+                <div>
+                    <span>UrbanGarden Studio, Na Měsíci 1, 000 00 Měsíc</span>
+                    <span>+420 737 297 791 martin.vrzan.024@pslib.cz</span>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 

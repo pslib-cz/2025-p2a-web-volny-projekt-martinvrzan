@@ -10,17 +10,24 @@
     <link rel="shortcut icon" href="./favicon/favicon.ico" />
     <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png" />
     <link rel="manifest" href="./favicon/web-app-manifest-192x192.png" />
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="CSS/componets.css">
+    <link rel="stylesheet" href="CSS/layout.css">
 </head>
 
 <body>
 
-    <header>
-        <nav>
-            <menu>
-                <li><a href="onas.html">O násS</a></li>
-                <li><a href="sluzby.html">Služby</a></li>
-                <li><a href="projekty.html">Projekty</a></li>
-                <li><a href="kontakty.html">Kontakty</a></li>
+    <header class="header">
+        <div class="ikona__obal">
+            <a href="index.html"><img class="header__ikona" src="favicon/favicon-96x96.png" alt="ikona domů"></a>
+        </div>
+        <nav class="navigace">
+            <menu class="menu">
+                <li class="item"><a href="onas.html">O Nás</a></li>
+                <li class="item"><a href="sluzby.html">Služby</a></li>
+                <li class="item"><a href="projekty.html">Projekty</a></li>
+                <li class="item"><a href="kontakty.html">Kontakty</a></li>
             </menu>
         </nav>
     </header>
@@ -31,7 +38,7 @@
                 <h1>Navrhujeme zahrady jako architekturu</h1>
                 <p>Tvoříme zahrady, kde se příroda potkává s architekturou a vnáší do života klid a charakter.</p>
                 <p>MODERNÍ PROSTOR | KLID | STRUKTURA</p>
-                <a href="projekty.html">Naše projekty</a>
+                <a class="btn-primary" href="projekty.html">Naše projekty</a>
             </div>
         </section>
         <section>
@@ -53,7 +60,7 @@
         <section>
             <div>
                 <h2>Vytvořme něco společně</h2>
-                <a href="kontakty.html">Kontaktujte nás</a>
+                <a class="btn-primary" href="kontakty.html">Kontaktujte nás</a>
             </div>
         </section>
     </main>
