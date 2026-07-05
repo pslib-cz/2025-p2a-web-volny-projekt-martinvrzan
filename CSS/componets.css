@@ -1,33 +1,77 @@
-a{
-    text-decoration: none;
-    color: white;
-}
+@layer reset, layout, komponents;
 
-.btn-primary{
+
+/*čudlik*/
+.btn-primary {
     background-color: var(--grey-green);
     border: solid var(--forest-green);
     border-radius: 5px;
     padding: 5px;
+    margin: auto;
 }
 
-.header{
+/*nabídka*/
+.nabidka__sekce {
+    display: flex;
+    justify-content: center;
+}
+
+.nabidka__obal {
+    display: flex;
+    flex-direction: column;
+}
+
+/*citace*/
+.citace {
+    display: flex;
+    justify-self: center;
+    color: var(--forest-green);
+    font-style: normal;
+    font-family: var(--font-heading);
+    font-size: xx-large;
+}
+
+/*header*/
+.header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: var(--grey-green);
     width: 100%;
-    padding: 0.2em;
+    padding: 0.58em;
 }
-.header__ikona{
+
+.header__ikona {
     width: 100%;
     height: 100%;
 }
-.ikona__obal{
+
+.ikona__obal {
     height: 2.5em;
 }
+
 .menu {
     display: flex;
     list-style: none;
     gap: 1em;
 }
 
+/*footer*/
+.footer {
+    display: flex;
+    background-color: var(--graphite-black);
+    color: white;
+}
+
+.footer__nadpis {
+    display: flex;
+    justify-content: center;
+    color: white;
+    order: 1;
+}
+
+.footer__menu {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
