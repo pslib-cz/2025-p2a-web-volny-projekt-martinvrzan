@@ -14,11 +14,29 @@
 .nabidka__sekce {
     display: flex;
     justify-content: center;
+    padding: 1.5em;
 }
 
 .nabidka__obal {
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
+    
+    justify-content: center;
+}
+
+.nabidka__nadpis{
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+}
+
+.divider2 {
+    content: "";
+    display: block;
+    height: 1px;
+    width: auto;
+    background-color: var(--forest-green);
 }
 
 /*citace*/
@@ -61,17 +79,57 @@
     display: flex;
     background-color: var(--graphite-black);
     color: white;
+    justify-content: center;
+}
+
+.footer__obal {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 1.5em;
 }
 
 .footer__nadpis {
     display: flex;
     justify-content: center;
     color: white;
-    order: 1;
 }
 
 .footer__menu {
     display: flex;
     justify-content: center;
-    gap: 2em;
+    gap: 1em;
+    color: var(--off-white);
+}
+
+.footer__adresa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    color: var(--off-white);
+}
+
+.footer__kontakt {
+    display: flex;
+    justify-content: center;
+    color: var(--off-white);
+}
+
+.cislo-email {
+    display: flex;
+}
+
+.footer__copyright {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    color: var(--off-white);
+}
+
+.divider {
+    content: "";
+    display: block;
+    height: 1px;
+    background-color: var(--off-white);
 }
