@@ -5,6 +5,7 @@
 .btn-primary {
     background-color: var(--grey-green);
     border: solid var(--forest-green);
+    color: white;
     border-radius: 5px;
     padding: 5px;
     margin: auto;

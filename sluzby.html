@@ -9,7 +9,7 @@
     <link rel="icon" type="image/svg+xml" href="./favicon/favicon.svg" />
     <link rel="shortcut icon" href="./favicon/favicon.ico" />
     <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png" />
-    <link rel="manifest" href="./favicon/web-app-manifest-192x192.png" />
+    <link rel="manifest" href="./favicon/site.webmanifest" />
     <link rel="stylesheet" href="CSS/reset.css">
     <link rel="stylesheet" href="CSS/styles.css">
     <link rel="stylesheet" href="CSS/componets.css">
@@ -31,7 +31,56 @@
         </nav>
     </header>
     <main>
-
+        <section class="hero">
+            <img class="hero__img" src="imgs/leaves_banner.webp" alt="zahradni listy banner">
+            <div class="hero__obsah">
+                <h1>Hýčkáme vás i zeleň.</h1>
+                <p>Vytváříme moderní zahrady, kde se příroda setkává s architekturou. Každý projekt je kompozicí
+                    prostoru, světla a materiálů, navržená pro klidné a nadčasové bydlení.</p>
+            </div>
+        </section>
+        <section>
+            <div>
+                <h2>Návrh zahrady</h2>
+                <p>Individuální návrh zahrady, který respektuje architekturu domu i okolí krajinu.</p>
+                <span class="divider2"></span>
+            </div>
+            <div>
+                <h2>Krajinářská architektura</h2>
+                <p>Komplexní řešení venkovních prostor – od konceptu po realizaci.</p>
+                <span class="divider2"></span>
+            </div>
+            <div>
+                <h2>Realizace a údržba</h2>
+                <p>Dlouhodobá péče o zahradu, aby si zachovala svou kvalitu a charakter.</p>
+                <span class="divider2"></span>
+            </div>
+        </section>
+        <section>
+            <h2>Kontaktujte nás</h2>
+            <p>Máte nápad? Napište nám.</p>
+            <form class="formular">
+                <label for="jmeno">Jméno</label>
+                <input type="text" id="jmeno" name="jmeno" placeholder="Martin">
+                <label for="prijmeni">Příjmení</label>
+                <input type="text" id="prijmeni" name="prijmeni" placeholder="Vržan">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="ahoj@ahoj.cz">
+                <label for="telefon">Telefon</label>
+                <input type="tel" id="telefon" name="telefon" placeholder="+420 000 000 000">
+                <label for="zprava">Vaše zpráva</label>
+                <textarea id="zprava" name="zprava" placeholder="Dobrý den, ..."></textarea>
+                <button type="submit" class="btn-primary">Odeslat</button>
+            </form>
+        </section>
+        <section class="nabidka__sekce">
+            <div class="nabidka__obal">
+                <span class="divider2"></span>
+                <h2 class="nabidka__nadpis">Vytvořme něco společně</h2>
+                <a class="btn-primary" href="kontakty.html">Kontaktujte nás</a>
+                <span class="divider2"></span>
+            </div>
+        </section>
     </main>
     <footer class="footer">
         <div class="footer__obal">

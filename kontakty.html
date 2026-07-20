@@ -9,7 +9,7 @@
     <link rel="icon" type="image/svg+xml" href="./favicon/favicon.svg" />
     <link rel="shortcut icon" href="./favicon/favicon.ico" />
     <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png" />
-    <link rel="manifest" href="./favicon/web-app-manifest-192x192.png" />
+    <link rel="manifest" href="./favicon/site.webmanifest" />
     <link rel="stylesheet" href="CSS/reset.css">
     <link rel="stylesheet" href="CSS/styles.css">
     <link rel="stylesheet" href="CSS/componets.css">
@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <div class="ikona__obal">
             <a href="index.html"><img class="header__ikona" src="favicon/favicon-96x96.png" alt="ikona domů"></a>
         </div>
@@ -31,7 +31,43 @@
         </nav>
     </header>
     <main>
-
+        <section>
+            <div>
+                <h1>Kontakty</h1>
+                <p>Ozvěte se nám. Rádi s Vámi probereme vaše projekty a sny.</p>
+            </div>
+            <div>
+                <div>
+                    <span>Email</span>
+                    <a href="mailto:martin.vrzan.024@pslib.cz">martin.vrzan.024@pslib.cz</a>
+                </div>
+                <div>
+                    <span>Telefon</span>
+                    <a href="tel:+420737297791">+420 737 297 791</a>
+                </div>
+                <div>
+                    <span>Lokalita</span>
+                    <span>Turnov, 511 01</span>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>Kontaktujte nás</h2>
+            <p>Máte nápad? Napište nám.</p>
+            <form class="formular">
+                <label for="jmeno">Jméno</label>
+                <input type="text" id="jmeno" name="jmeno" placeholder="Martin">
+                <label for="prijmeni">Příjmení</label>
+                <input type="text" id="prijmeni" name="prijmeni" placeholder="Vržan">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="ahoj@ahoj.cz">
+                <label for="telefon">Telefon</label>
+                <input type="tel" id="telefon" name="telefon" placeholder="+420 000 000 000">
+                <label for="zprava">Vaše zpráva</label>
+                <textarea id="zprava" name="zprava" placeholder="Dobrý den, ..."></textarea>
+                <button type="submit" class="btn-primary">Odeslat</button>
+            </form>
+        </section>
     </main>
     <footer class="footer">
         <div class="footer__obal">

@@ -9,7 +9,7 @@
     <link rel="icon" type="image/svg+xml" href="./favicon/favicon.svg" />
     <link rel="shortcut icon" href="./favicon/favicon.ico" />
     <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png" />
-    <link rel="manifest" href="./favicon/web-app-manifest-192x192.png" />
+    <link rel="manifest" href="./favicon/site.webmanifest" />
     <link rel="stylesheet" href="CSS/reset.css">
     <link rel="stylesheet" href="CSS/styles.css">
     <link rel="stylesheet" href="CSS/componets.css">
@@ -35,11 +35,43 @@
             <h1>Naše Projekty</h1>
             <p>Výběr realizovaných zahrad a konceptů.</p>
         </section>
-        <section class="galerie">
-            <div class="galerie__obal">
-                
+        <section class="projekty-galerie">
+            <div class="projekty__obal">
+                <div id="lightgallery" class="gallery-grid">
+                    <a class="gallery-grid__item" href="imgs/garden_fireplace.webp" data-lg-size="2048-1366">
+                        <img src="imgs/garden_fireplace.webp" alt="Moderní venkovní krb" class="gallery-grid__img">
+                    </a>
+                    <a class="gallery-grid__item" href="imgs/garden_hedges.webp" data-lg-size="2048-1366">
+                        <img src="imgs/garden_hedges.webp" alt="Zastřižené keře a trávník" class="gallery-grid__img">
+                    </a>
+                    <a class="gallery-grid__item" href="imgs/garden_patio.webp" data-lg-size="2048-1366">
+                        <img src="imgs/garden_patio.webp" alt="Moderní terasové posezení" class="gallery-grid__img">
+                    </a>
+                    <a class="gallery-grid__item" href="imgs/garden_zen.webp" data-lg-size="2048-1366">
+                        <img src="imgs/garden_zen.webp" alt="Terasové posezení" class="gallery-grid__img">
+                    </a>
+                    <a class="gallery-grid__item" href="imgs/garden_vertical.webp" data-lg-size="2048-1366">
+                        <img src="imgs/garden_vertical.webp" alt="Keřová architektura" class="gallery-grid__img">
+                    </a>
+                    <a class="gallery-grid__item" href="imgs/garden_rooftop.webp" data-lg-size="2048-1366">
+                        <img src="imgs/garden_rooftop.webp" alt="Zahradní ohniště a krb" class="gallery-grid__img">
+                    </a>
+                    <a class="gallery-grid__item" href="imgs/garden_pool.webp" data-lg-size="2048-1366">
+                        <img src="imgs/garden_pool.webp" alt="Luxusní terasové posezení" class="gallery-grid__img">
+                    </a>
+                    <a class="gallery-grid__item" href="imgs/garden_path.webp" data-lg-size="2048-1366">
+                        <img src="imgs/garden_path.webp" alt="Parkové keře" class="gallery-grid__img">
+                    </a>
+                    <a class="gallery-grid__item" href="imgs/garden_night.webp" data-lg-size="2048-1366">
+                        <img src="imgs/garden_night.webp" alt="Exteriérový krb" class="gallery-grid__img">
+                    </a>
+                </div>
             </div>
         </section>
+        <span class="divider2"></span>
+        <h2 class="nabidka__nadpis">Vytvořme něco společně</h2>
+        <a class="btn-primary" href="kontakty.html">Kontaktujte nás</a>
+        <span class="divider2"></span>
     </main>
     <footer class="footer">
         <div class="footer__obal">
@@ -63,6 +95,19 @@
             <small class="footer__copyright">Copyright &copy;2026 společnost UrbanGarden Studio</small>
         </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.9.0/lightgallery.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.9.0/plugins/zoom/lg-zoom.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.9.0/plugins/thumbnail/lg-thumbnail.umd.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+        lightGallery(document.getElementById('lightgallery'), {
+            plugins: [lgZoom, lgThumbnail],
+            speed: 400,
+            licenseKey: 'open-source-license',
+        });
+    </script>
+
 </body>
 
 </html>
