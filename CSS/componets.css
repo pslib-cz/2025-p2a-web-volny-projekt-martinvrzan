@@ -113,12 +113,13 @@
 
 .footer__kontakt {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     color: var(--off-white);
 }
 
 .cislo-email {
-    display: flex;
+    display: block;
 }
 
 .footer__copyright {

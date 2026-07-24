@@ -9,19 +9,35 @@
     --sand-beige: #D8CFC4;
     --grey-green: #528F70;
     --grey-green-hover: #417359;
-    
-   
+
+
     --font-heading: "Playfair Display", serif;
     --font-body: "Inter", sans-serif;
 }
 
 
-h1, h2, h3, h4, h5, h6 {
-        font-family: var(--font-heading);
-        color: var(--graphite-black);
-    }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-heading);
+    color: var(--graphite-black);
+}
 
-    body {
-        font-family: var(--font-body);
-        color: var(--graphite-black);
-    }
+body {
+    font-family: var(--font-body);
+    color: var(--graphite-black);
+}
+
+ul,
+ol,
+menu {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
