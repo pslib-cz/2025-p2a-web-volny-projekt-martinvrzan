@@ -10,7 +10,7 @@
     <link rel="shortcut icon" href="./favicon/favicon.ico" />
     <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png" />
     <link rel="manifest" href="./favicon/site.webmanifest" />
-    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/normalize.css">
     <link rel="stylesheet" href="CSS/styles.css">
     <link rel="stylesheet" href="CSS/componets.css">
     <link rel="stylesheet" href="CSS/layout.css">
@@ -22,6 +22,11 @@
             <a href="index.html"><img class="header__ikona" src="favicon/favicon-96x96.png" alt="ikona domů"></a>
         </div>
         <nav class="navigace">
+            <button class="navigace__burger" aria-label="Otevřít menu" aria-expanded="false">
+                <span class="navigace__cara"></span>
+                <span class="navigace__cara"></span>
+                <span class="navigace__cara"></span>
+            </button>
             <menu class="menu">
                 <li class="item"><a href="onas.html">O Nás</a></li>
                 <li class="item"><a href="sluzby.html">Služby</a></li>
@@ -104,6 +109,7 @@
             <small class="footer__copyright">Copyright &copy;2026 společnost UrbanGarden Studio</small>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>

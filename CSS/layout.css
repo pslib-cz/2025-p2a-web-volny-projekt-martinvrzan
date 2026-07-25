@@ -1,2 +1,88 @@
-@layer reset, layout, komponents;
+@layer normalize, layout, komponents;
 
+/* hamburger */
+.navigace__burger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 1.5rem;
+    height: 1.125rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    position: relative;
+    z-index: 101;
+}
+
+.navigace__cara {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    flex-direction: column;
+    background-color: var(--grey-green);
+    padding: 1em;
+    gap: 1em;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.navigace {
+    position: relative;
+}
+
+/* otevřený stav */
+.navigace--otevrena .menu {
+    display: flex;
+    opacity: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--graphite-black);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    font-size: 1.5rem;
+    z-index: 100;
+}
+
+.navigace--otevrena .navigace__cara:nth-child(1) {
+    transform: translateY(0.5rem) rotate(45deg);
+}
+
+.navigace--otevrena .navigace__cara:nth-child(2) {
+    opacity: 0;
+}
+
+.navigace--otevrena .navigace__cara:nth-child(3) {
+    transform: translateY(-0.5rem) rotate(-45deg);
+}
+
+/* desktop */
+@media (min-width: 768px) {
+    .navigace__burger {
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+        position: static;
+        flex-direction: row;
+        opacity: 1;
+        padding: 0;
+        background: none;
+    }
+}

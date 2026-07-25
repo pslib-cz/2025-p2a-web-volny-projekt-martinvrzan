@@ -1,5 +1,4 @@
-@layer reset, layout, komponents;
-
+@layer normalize, layout, komponents;
 
 /*čudlik*/
 .btn-primary {
@@ -134,4 +133,35 @@
     display: block;
     height: 1px;
     background-color: var(--off-white);
+}
+
+/*galerie*/
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+}
+
+.gallery-grid__item {
+    display: block;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.gallery-grid__img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    transition: opacity 0.2s ease;
+}
+
+.gallery-grid__item:hover .gallery-grid__img {
+    opacity: 0.85;
+}
+
+@media (min-width: 768px) {
+    .gallery-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
