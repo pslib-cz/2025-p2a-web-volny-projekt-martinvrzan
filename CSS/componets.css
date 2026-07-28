@@ -109,13 +109,6 @@
     color: var(--off-white);
 }
 
-.footer__kontakt {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    color: var(--off-white);
-}
-
 .cislo-email {
     display: block;
 }
@@ -144,6 +137,7 @@
 .gallery-grid__item {
     display: block;
     overflow: hidden;
+    border: 2px solid var(--graphite-black);
     border-radius: 4px;
 }
 

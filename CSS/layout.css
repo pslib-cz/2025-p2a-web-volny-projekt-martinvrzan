@@ -1,6 +1,6 @@
 @layer normalize, layout, komponents;
 
-/* hamburger */
+/*hamburger*/
 .navigace__burger {
     display: flex;
     flex-direction: column;
@@ -43,7 +43,7 @@
     position: relative;
 }
 
-/* otevřený stav */
+/*otevreny stav*/
 .navigace--otevrena .menu {
     display: flex;
     opacity: 1;
@@ -73,7 +73,7 @@
     transform: translateY(-8px) rotate(-45deg);
 }
 
-/* hero */
+/*hero*/
 .hero {
     position: relative;
     background-size: cover;
@@ -104,7 +104,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 1em;
+    gap: 1.5em;
     width: 100%;
 }
 
@@ -138,10 +138,10 @@ main > p {
 
 .sluzby__sekce {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    grid-template-columns: repeat(1, 75%);
     grid-template-rows: repeat(3, auto);
     padding: 1em;
-    gap: 0.5em;
 }
 
 .sluzby__sekce h2 {
@@ -183,7 +183,7 @@ main > p {
     margin: 1.5em 0;
 }
 
-/* formulář */
+/*formulář*/
 .kontakt__sekce {
     padding: 1.5em;
 }
@@ -212,7 +212,7 @@ main > p {
 .formular__textarea {
     width: 100%;
     padding: 10px;
-    border: 1px solid black;
+    border: 1px solid var(--graphite-black);
     border-radius: 3px;
     font-family: var(--font-body);
     font-size: 0.95rem;
@@ -233,7 +233,7 @@ main > p {
     margin: 1em 0 0 0;
 }
 
-/* o nas */
+/*o nas*/
 .onas__sekce {
     display: flex;
     flex-direction: column;
@@ -281,7 +281,7 @@ main > p {
     text-transform: uppercase;
 }
 
-/* kontakty */
+/*kontakty*/
 .kontakty__hlavni {
     padding: 1.5em;
     display: flex;
@@ -319,13 +319,13 @@ a.kontakty__udaj-hodnota,
     text-decoration: none;
 }
 
-/* projekty */
+/*projekty*/
 .projekty__uvod {
     padding: 1.5em;
     text-align: center;
 }
 
-/* footer */
+/*footer*/
 .footer {
     display: flex;
     background-color: var(--graphite-black);
@@ -388,7 +388,7 @@ a.kontakty__udaj-hodnota,
 .divider {
     display: block;
     height: 1px;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: var(--off-white);
     margin: 0.5em 0;
     width: 100%;
 }
@@ -423,7 +423,7 @@ a.kontakty__udaj-hodnota,
     color: var(--graphite-black);
 }
 
-/* desktop */
+/*desktop*/
 @media (min-width: 768px) {
     .navigace__burger {
         display: none;
