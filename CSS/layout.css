@@ -160,16 +160,20 @@ main > p {
 
 .sluzby__obrazky {
     display: flex;
-    grid-column: 1 / -1;
-    gap: 8px;
+    flex-direction: column;
+    gap: 0.5em;
     margin-top: 1em;
 }
-
 .sluzby__obrazky img {
     flex: 1;
     min-width: 0;
     aspect-ratio: 1 / 1;
     object-fit: cover;
+}
+
+.obrazek1, .obrazek2{
+    border: 3px solid var(--graphite-black);
+    border-radius: 4px;
 }
 
 .sluzby__sekce .citace {
