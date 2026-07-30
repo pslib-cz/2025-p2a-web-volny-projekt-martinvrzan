@@ -1,4 +1,4 @@
-@layer normalize, layout, komponents;
+@layer normalize, components, layout;
 
 /*hamburger*/
 .navigace__burger {
@@ -343,7 +343,7 @@ a.kontakty__udaj-hodnota,
     flex-direction: column;
     gap: 1.5em;
     width: 100%;
-    padding: 0 1.5em;
+    padding: 0 1em;
     box-sizing: border-box;
 }
 
@@ -353,7 +353,6 @@ a.kontakty__udaj-hodnota,
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 0.5em;
 }
 
 .footer__nadpis {
@@ -428,7 +427,7 @@ a.kontakty__udaj-hodnota,
 }
 
 /*desktop*/
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
     .navigace__burger {
         display: none;
     }

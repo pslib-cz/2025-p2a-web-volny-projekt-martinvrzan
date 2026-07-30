@@ -1,4 +1,4 @@
-@layer normalize, layout, komponents;
+@layer normalize, components, layout;
 
 /*čudlik*/
 .btn-primary {
@@ -24,7 +24,7 @@
     justify-content: center;
 }
 
-.nabidka__nadpis{
+.nabidka__nadpis {
     display: flex;
     justify-content: center;
     font-size: x-large;
@@ -153,8 +153,19 @@
     opacity: 0.85;
 }
 
-@media (min-width: 768px) {
+/*DESKTOP*/
+@media (min-width: 1024px) {
     .gallery-grid {
         grid-template-columns: repeat(3, 1fr);
     }
+}
+
+/*footer-desktop*/
+.footer__zajimavosti{
+    display: flex;
+    justify-content: center;
+}
+
+.footer__kontakt{
+    justify-content: center;
 }
