@@ -476,6 +476,11 @@ a.kontakty__udaj-hodnota,
         display: none;
     }
 
+    /*sluzby*/
+    .kontakt__sekce{
+        padding: 0 25%;
+    }
+
     /*footer*/
     .footer__zajimavosti {
         display: flex;
