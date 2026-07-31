@@ -481,6 +481,11 @@ a.kontakty__udaj-hodnota,
         padding: 0 25%;
     }
 
+    /*projekty*/
+    .projekty-galerie{
+        padding: 0 10%;
+    }
+
     /*footer*/
     .footer__zajimavosti {
         display: flex;
