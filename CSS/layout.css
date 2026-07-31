@@ -128,11 +128,11 @@
     margin: 8px auto 0 auto;
 }
 
-main > h1 {
+main>h1 {
     padding: 1em 1.5em;
 }
 
-main > p {
+main>p {
     padding: 0.5em 1.5em 1em;
 }
 
@@ -164,14 +164,16 @@ main > p {
     gap: 0.5em;
     margin-top: 1em;
 }
-.sluzby__obrazky img {
-    flex: 1;
-    min-width: 0;
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
+
+.sluzby__obrazek-obal{
+    display: flex;
+    padding: 0.5em;
+    justify-content: center;
 }
 
-.obrazek1, .obrazek2{
+.obrazek {
+    width: 100%;
+    height: auto;
     border: 3px solid var(--graphite-black);
     border-radius: 4px;
 }
@@ -194,8 +196,8 @@ main > p {
 
 
 .kontakt__popisek {
-   border-bottom: 1px solid var(--forest-green);
-   padding-bottom: 1.5em;
+    border-bottom: 1px solid var(--forest-green);
+    padding-bottom: 1.5em;
 }
 
 .formular {
@@ -404,7 +406,7 @@ a.kontakty__udaj-hodnota,
 }
 
 .onas__obrazek {
-    padding:1em;
+    padding: 1em;
     display: flex;
     justify-content: center;
 }
@@ -414,7 +416,7 @@ a.kontakty__udaj-hodnota,
     height: auto;
     max-height: 250px;
     object-fit: cover;
-    border:2px solid black;
+    border: 2px solid black;
     border-radius: 4px;
 }
 
@@ -440,4 +442,46 @@ a.kontakty__udaj-hodnota,
         padding: 0;
         background: none;
     }
+
+    /*sluzby sekce*/
+    .sluzby__sekce{
+        grid-template-columns: repeat(3, auto);
+    }
+
+    .sluzby__obrazky{
+        flex-direction: row;
+        grid-column: 1/-1;
+        justify-content: center;
+    }
+
+    .sluzby__obrazek-obal{
+        max-width: 650px;
+        height: 75%;
+    }
+
+    /*footer*/
+    .footer__zajimavosti {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5em;
+        border-top: 1px solid var(--off-white);
+        border-bottom: 1px solid var(--off-white);
+        padding: 1.5em;
+    }
+
+    .footer__menu {
+        flex-direction: row;
+    }
+
+    .footer__adresa {
+        flex-direction: row;
+    }
+
+    .footer__kontakt {
+        flex-direction: row;
+        justify-content: center;
+        gap: 0.5em;
+    }
+
 }

@@ -85,7 +85,7 @@
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    padding: 1.5em;
+    padding: 1em;
 }
 
 .footer__nadpis {
@@ -97,7 +97,7 @@
 .footer__menu {
     display: flex;
     justify-content: center;
-    gap: 1em;
+    gap: 0.5em;
     color: var(--off-white);
 }
 
@@ -105,7 +105,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1em;
+    gap: 0.5em;
     color: var(--off-white);
 }
 
@@ -116,7 +116,6 @@
 .footer__copyright {
     display: flex;
     justify-content: center;
-    padding: 1em;
     color: var(--off-white);
 }
 
@@ -158,14 +157,4 @@
     .gallery-grid {
         grid-template-columns: repeat(3, 1fr);
     }
-}
-
-/*footer-desktop*/
-.footer__zajimavosti{
-    display: flex;
-    justify-content: center;
-}
-
-.footer__kontakt{
-    justify-content: center;
 }
