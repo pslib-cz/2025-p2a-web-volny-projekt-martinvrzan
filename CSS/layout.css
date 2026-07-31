@@ -90,6 +90,14 @@
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0.3) 100%), url('../imgs/hero_home.webp');
 }
 
+.hero--onas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    padding: 1em;
+}
+
 .hero--sluzby {
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0.3) 100%), url('../imgs/leaves_banner.webp');
 }
@@ -165,7 +173,7 @@ main>p {
     margin-top: 1em;
 }
 
-.sluzby__obrazek-obal{
+.sluzby__obrazek-obal {
     display: flex;
     padding: 0.5em;
     justify-content: center;
@@ -345,7 +353,6 @@ a.kontakty__udaj-hodnota,
     flex-direction: column;
     gap: 1.5em;
     width: 100%;
-    padding: 0 1em;
     box-sizing: border-box;
 }
 
@@ -443,20 +450,30 @@ a.kontakty__udaj-hodnota,
         background: none;
     }
 
-    /*sluzby sekce*/
-    .sluzby__sekce{
+    /*index*/
+    .sluzby__sekce {
         grid-template-columns: repeat(3, auto);
     }
 
-    .sluzby__obrazky{
+    .sluzby__obrazky {
         flex-direction: row;
         grid-column: 1/-1;
         justify-content: center;
     }
 
-    .sluzby__obrazek-obal{
+    .sluzby__obrazek-obal {
         max-width: 650px;
         height: 75%;
+    }
+
+    /*o nas*/
+    .onas__sekce {
+        flex-direction: row;
+        padding: 2em 25%;
+    }
+
+     .onas__obrazek {
+        display: none;
     }
 
     /*footer*/
