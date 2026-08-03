@@ -247,6 +247,10 @@ main>p {
     margin: 1em 0 0 0;
 }
 
+.kontakty__logo {
+    display: none;
+}
+
 /*o nas*/
 .onas__sekce {
     display: flex;
@@ -472,18 +476,49 @@ a.kontakty__udaj-hodnota,
         padding: 2em 25%;
     }
 
-     .onas__obrazek {
+    .onas__obrazek {
         display: none;
     }
 
     /*sluzby*/
-    .kontakt__sekce{
+    .kontakt__sekce {
         padding: 0 25%;
     }
 
     /*projekty*/
-    .projekty-galerie{
+    .projekty-galerie {
         padding: 0 10%;
+    }
+
+    /*kontakty*/
+
+    .kontakty__main {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 2em;
+        padding: 2em 10%;
+    }
+
+    .kontakty__obsah {
+        display: flex;
+        flex-direction: column;
+        gap: 2.5em;
+        flex: 1;
+        max-width: 600px;
+    }
+
+    .kontakty__hlavni {
+        padding: 0;
+    }
+
+    .kontakty__main .kontakt__sekce {
+        padding: 0;
+    }
+
+    .kontakty__logo {
+        display: block;
+        width: 160px;
     }
 
     /*footer*/

@@ -35,44 +35,50 @@
             </menu>
         </nav>
     </header>
-    <main>
-        <section class="kontakty__hlavni">
-            <div class="kontakty__uvod">
-                <h1>Kontakty</h1>
-                <p>Ozvěte se nám. Rádi s Vámi probereme vaše projekty a sny.</p>
-            </div>
-            <div class="kontakty__udaje">
-                <div class="kontakty__udaj">
-                    <span class="kontakty__udaj-label">Email</span>
-                    <a href="mailto:martin.vrzan.024@pslib.cz" class="kontakty__udaj-hodnota">martin.vrzan.024@pslib.cz</a>
+    <main class="kontakty__main">
+        <div class="kontakty__obsah">
+            <section class="kontakty__hlavni">
+                <div class="kontakty__uvod">
+                    <h1>Kontakty</h1>
+                    <p>Ozvěte se nám. Rádi s Vámi probereme vaše projekty a sny.</p>
                 </div>
-                <div class="kontakty__udaj">
-                    <span class="kontakty__udaj-label">Telefon</span>
-                    <a href="tel:+420737297791" class="kontakty__udaj-hodnota">+420 737 297 791</a>
+                <div class="kontakty__udaje">
+                    <div class="kontakty__udaj">
+                        <span class="kontakty__udaj-label">Email</span>
+                        <a href="mailto:martin.vrzan.024@pslib.cz"
+                            class="kontakty__udaj-hodnota">martin.vrzan.024@pslib.cz</a>
+                    </div>
+                    <div class="kontakty__udaj">
+                        <span class="kontakty__udaj-label">Telefon</span>
+                        <a href="tel:+420737297791" class="kontakty__udaj-hodnota">+420 737 297 791</a>
+                    </div>
+                    <div class="kontakty__udaj">
+                        <span class="kontakty__udaj-label">Lokalita</span>
+                        <span class="kontakty__udaj-hodnota">Turnov, 511 01</span>
+                    </div>
                 </div>
-                <div class="kontakty__udaj">
-                    <span class="kontakty__udaj-label">Lokalita</span>
-                    <span class="kontakty__udaj-hodnota">Turnov, 511 01</span>
-                </div>
-            </div>
-        </section>
-        <section class="kontakt__sekce">
-            <h2 class="kontakt__nadpis">Kontaktujte nás</h2>
-            <p class="kontakt__popisek">Máte nápad? Napište nám.</p>
-            <form class="kontakt__formular formular">
-                <label for="jmeno" class="formular__label">Jméno</label>
-                <input type="text" id="jmeno" name="jmeno" placeholder="Martin" class="formular__input">
-                <label for="prijmeni" class="formular__label">Příjmení</label>
-                <input type="text" id="prijmeni" name="prijmeni" placeholder="Vržan" class="formular__input">
-                <label for="email" class="formular__label">Email</label>
-                <input type="email" id="email" name="email" placeholder="ahoj@ahoj.cz" class="formular__input">
-                <label for="telefon" class="formular__label">Telefon</label>
-                <input type="tel" id="telefon" name="telefon" placeholder="+420 000 000 000" class="formular__input">
-                <label for="zprava" class="formular__label">Vaše zpráva</label>
-                <textarea id="zprava" name="zprava" placeholder="Dobrý den, ..." class="formular__textarea"></textarea>
-                <button type="submit" class="btn-primary formular__odeslat">Odeslat</button>
-            </form>
-        </section>
+            </section>
+            <section class="kontakt__sekce">
+                <h2 class="kontakt__nadpis">Kontaktujte nás</h2>
+                <p class="kontakt__popisek">Máte nápad? Napište nám.</p>
+                <form class="kontakt__formular formular">
+                    <label for="jmeno" class="formular__label">Jméno</label>
+                    <input type="text" id="jmeno" name="jmeno" placeholder="Martin" class="formular__input">
+                    <label for="prijmeni" class="formular__label">Příjmení</label>
+                    <input type="text" id="prijmeni" name="prijmeni" placeholder="Vržan" class="formular__input">
+                    <label for="email" class="formular__label">Email</label>
+                    <input type="email" id="email" name="email" placeholder="ahoj@ahoj.cz" class="formular__input">
+                    <label for="telefon" class="formular__label">Telefon</label>
+                    <input type="tel" id="telefon" name="telefon" placeholder="+420 000 000 000"
+                        class="formular__input">
+                    <label for="zprava" class="formular__label">Vaše zpráva</label>
+                    <textarea id="zprava" name="zprava" placeholder="Dobrý den, ..."
+                        class="formular__textarea"></textarea>
+                    <button type="submit" class="btn-primary formular__odeslat">Odeslat</button>
+                </form>
+            </section>
+        </div>
+        <img class="kontakty__logo" src="imgs/logo.svg" alt="Logo UrbanGarden Studio">
     </main>
     <footer class="footer">
         <div class="footer__obal">
@@ -91,7 +97,8 @@
             </div>
             <div class="footer__kontakt">
                 <span class="cislo-email"><a href="tel:+420737297791">+420 737 297 791</a></span><br>
-                <span class="cislo-email"><a href="mailto:martin.vrzan.024@pslib.cz">martin.vrzan.024@pslib.cz</a></span>
+                <span class="cislo-email"><a
+                        href="mailto:martin.vrzan.024@pslib.cz">martin.vrzan.024@pslib.cz</a></span>
             </div>
             <span class="divider"></span>
             <small class="footer__copyright">Copyright &copy;2026 společnost UrbanGarden Studio</small>
