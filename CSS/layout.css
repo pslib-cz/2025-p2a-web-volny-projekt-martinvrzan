@@ -166,6 +166,16 @@
         display: grid;
         grid-template-rows: subgrid;
         grid-row: span 3;
+        gap: 0.5em;
+        padding: 0.5em;
+    }
+
+    .sluzby__karta::after {
+        content: "";
+        display: block;
+        height: 1px;
+        background-color: var(--forest-green);
+        margin-top: 0.5em;
     }
 
     .sluzby__obrazky {
@@ -403,7 +413,8 @@
         line-height: 1.4;
     }
 
-    .divider {
+    .footer__kontakt::after {
+        content: "";
         display: block;
         height: 1px;
         background-color: var(--off-white);
@@ -463,6 +474,7 @@
         /*index*/
         .sluzby__sekce {
             grid-template-columns: repeat(3, auto);
+            padding: 1em;
         }
 
         .sluzby__obrazky {
@@ -547,7 +559,7 @@
 
         .footer__kontakt {
             align-content: center;
-            gap: 0.5em;
+            align-items: center;
             flex-wrap: wrap;
         }
 

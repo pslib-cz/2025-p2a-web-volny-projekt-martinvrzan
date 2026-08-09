@@ -32,11 +32,19 @@
         font-size: x-large;
     }
 
-    .divider2 {
+    .nabidka__obal::before,
+    .nabidka__obal::after {
         content: "";
         display: block;
         height: 1px;
-        width: auto;
+        background-color: var(--forest-green);
+        margin: 1.5em;
+    }
+
+    .hero--onas::after {
+        content: "";
+        display: block;
+        height: 1px;
         background-color: var(--forest-green);
         margin: 1.5em;
     }
@@ -121,12 +129,7 @@
         color: var(--off-white);
     }
 
-    .divider {
-        content: "";
-        display: block;
-        height: 1px;
-        background-color: var(--off-white);
-    }
+
 
     /*galerie*/
     .gallery-grid {
