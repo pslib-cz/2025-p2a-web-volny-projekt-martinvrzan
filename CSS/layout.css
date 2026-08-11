@@ -43,6 +43,7 @@
 
     .navigace {
         position: relative;
+        padding-right: 2em;
     }
 
     /*otevreny stav*/
@@ -510,7 +511,7 @@
         .kontakty__main {
             display: flex;
             align-items: center;
-            justify-content: space-around;
+            justify-content: center;
             padding: 2em;
         }
 
@@ -535,6 +536,7 @@
         .kontakty__logo {
             display: block;
             width: 160px;
+            padding: 5em;
         }
 
         /*footer*/
