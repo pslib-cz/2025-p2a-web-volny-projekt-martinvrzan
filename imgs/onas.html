@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onás-UrbanGarden</title>
+    <link rel="icon" type="image/png" href="./favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="./favicon/favicon.svg" />
+    <link rel="shortcut icon" href="./favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="./favicon/site.webmanifest" />
+    <link rel="stylesheet" href="CSS/main.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="ikona__obal">
+            <a href="index.html"><img class="header__ikona" src="imgs/logo.svg" alt="ikona domů"></a>
+        </div>
+        <nav class="navigace">
+            <button class="navigace__burger" aria-label="Otevřít menu" aria-expanded="false">
+                <span class="navigace__cara"></span>
+                <span class="navigace__cara"></span>
+                <span class="navigace__cara"></span>
+            </button>
+            <menu class="menu">
+                <li class="item"><a href="onas.html">O Nás</a></li>
+                <li class="item"><a href="sluzby.html">Služby</a></li>
+                <li class="item"><a href="projekty.html">Projekty</a></li>
+                <li class="item"><a href="kontakty.html">Kontakty</a></li>
+            </menu>
+        </nav>
+    </header>
+    <main>
+        <section class="hero--onas">
+            <h1>Navrhujeme prostory, kde se příroda potkává s architekturou</h1>
+            <p>UrbanGarden Studio je kreativní studio zaměřené na moderní, minimalistický a přírodou inspirovaný design.
+            </p>
+        </section>
+        <div class="onas__obrazek">
+            <img src="imgs/garden_zen.webp" alt="Zenová zahrada" class="onas__img">
+        </div>
+        <section class="onas__sekce">
+            <div class="onas__karta onas__karta--kdo-jsme">
+                <div class="onas__kdo-jsme-obal">
+                    <h2>Kdo jsme</h2>
+                    <p>Jsme malé designové studio, které propojuje přírodní prvky s moderní architekturou. Naším cílem
+                        je vytvářet prostory, které jsou klidné, funkční a nadčasové.</p>
+                    <div class="staty">
+                        <div class="staty__item">
+                            <span class="staty__cislo">5+</span>
+                            <span class="staty__popisek">Projekty</span>
+                        </div>
+                        <div class="staty__item">
+                            <span class="staty__cislo">2</span>
+                            <span class="staty__popisek">Designéři</span>
+                        </div>
+                        <div class="staty__item">
+                            <span class="staty__cislo">2026</span>
+                            <span class="staty__popisek">Založeno</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="onas__karta onas__karta--vize">
+                <h2>Naše vize</h2>
+                <p>Věříme, že design by neměl bojovat s přírodou, ale spolupracovat s ní. Každý projekt je rovnováhou
+                    mezi strukturou, světlem a organickými prvky.</p>
+            </div>
+        </section>
+        <section class="nabidka__sekce">
+            <div class="nabidka__obal">
+                <h2 class="nabidka__nadpis">Vytvořme něco společně</h2>
+                <a class="btn-primary" href="kontakty.html">Kontaktujte nás</a>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__obal">
+            <div class="footer__zajimavosti">
+                <h3 class="footer__nadpis">Mohlo by vás zajímat:</h3>
+                <menu class="footer__menu">
+                    <li><a href="onas.html">O nás</a></li>
+                    <li><a href="sluzby.html">Služby</a></li>
+                    <li><a href="projekty.html">Projekty</a></li>
+                    <li><a href="kontakty.html">Kontakty</a></li>
+                </menu>
+            </div>
+            <div class="footer__adresa">
+                <h3 class="footer__nadpis">Kde nás najdete:</h3>
+                <span>UrbanGarden Studio, Na Měsíci 1, 000 00 Měsíc</span>
+            </div>
+            <div class="footer__kontakt">
+                <span class="cislo-email"><a href="tel:+420737297791">+420 737 297 791</a></span>
+                <span class="cislo-email"><a
+                        href="mailto:martin.vrzan.024@pslib.cz">martin.vrzan.024@pslib.cz</a></span>
+            </div>
+            <small class="footer__copyright">Copyright &copy;2026 společnost UrbanGarden Studio</small>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -521,6 +521,8 @@
             gap: 2.5em;
             flex: 1;
             max-width: 600px;
+            border-right: solid 1px var(--forest-green);
+            padding-right: 5em;
         }
 
         .kontakty__hlavni {
