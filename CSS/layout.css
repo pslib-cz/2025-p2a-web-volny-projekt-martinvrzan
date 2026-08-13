@@ -77,7 +77,6 @@
 
     /*hero*/
     .hero {
-        position: relative;
         background-size: cover;
         background-position: center;
         min-height: 60vh;
