@@ -28,7 +28,7 @@
         color: var(--graphite-black);
     }
 
-    body {
+    html {
         font-family: var(--font-body);
         color: var(--graphite-black);
 

@@ -134,7 +134,7 @@
     .hero__obal .btn-primary,
     .hero__obsah .btn-primary {
         align-self: center;
-        margin: 8px auto 0 auto;
+        margin: 0.5em auto 0 auto;
     }
 
     main>h1 {
@@ -236,7 +236,7 @@
     .formular__input,
     .formular__textarea {
         width: 100%;
-        padding: 10px;
+        padding: 0.5em;
         border: 1px solid var(--graphite-black);
         border-radius: 3px;
         font-family: var(--font-body);
@@ -245,13 +245,13 @@
     }
 
     .formular__textarea {
-        height: 120px;
+        min-height: 120px;
         resize: vertical;
     }
 
     .formular__odeslat {
         align-self: flex-start;
-        padding: 8px 20px;
+        padding: 0.5em 1em;
         font-family: var(--font-body);
         font-weight: 500;
         cursor: pointer;
